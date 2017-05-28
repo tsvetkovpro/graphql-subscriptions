@@ -1,0 +1,25 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "Nikita Marcius",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-es2015": "*",
+    "nodemon": "*"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "graphql": "*",
+    "graphql-server-express": "*",
+    "graphql-subscriptions": "*",
+    "graphql-tools": "*",
+    "subscriptions-transport-ws": "*"
+  }
+}

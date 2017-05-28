@@ -1,0 +1,29 @@
+{
+  "name": "test-client",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Nikita Marcius",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "graphql-tag": "*",
+    "vue-apollo": "*",
+    "apollo-client": "*",
+    "subscriptions-transport-ws": "*",
+    "vue": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-latest": "*",
+    "cross-env": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "vue-loader": "*",
+    "vue-template-compiler": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  }
+}
